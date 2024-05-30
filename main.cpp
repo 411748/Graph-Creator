@@ -83,7 +83,7 @@ public:
     for (int i = 0; i <= numVertices; i++) {
       for (int j = 0; j <= numVertices; j++) {
         if (adjMatrix[i][0] == from && adjMatrix[j][0] == to) {
-          adjMatrix[i][j] = ; //finding and removing
+          adjMatrix[i][j] = 0; //finding and removing
         }
       }
     }
